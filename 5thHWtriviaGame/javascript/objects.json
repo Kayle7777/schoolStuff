@@ -1,0 +1,73 @@
+jsonStuff = [
+  {
+    "question": "Who possesses the ring of power at the start of the Trilogy of The Lord of the Rings?",
+    "wrong1": "Gandalf",
+    "wrong2": "Sauron",
+    "wrong3": "Frodo",
+    "right": "Bilbo"
+  },
+  {
+    "question": "Who do the hobbits encounter at the Prancing Pony Inn?",
+    "wrong1": "Gandalf",
+    "wrong2": "Legolas",
+    "wrong3": "Boromir",
+    "right": "Strider"
+  },
+  {
+    "question": "How many members make up the fellowship of the ring?",
+    "wrong1": "Seven",
+    "wrong2": "Eight",
+    "wrong3": "Ten",
+    "right": "Nine"
+  },
+  {
+    "question": "What is the name of the only kin of the fair folk in the fellowship of the ring?",
+    "wrong1": "Gimli",
+    "wrong2": "Meriadoc",
+    "wrong3": "Boromir",
+    "right": "Legolas"
+  },
+  {
+    "question": "Who is the first member of the fellowship to be separated from the group?",
+    "wrong1": "Legolas",
+    "wrong2": "Boromir",
+    "wrong3": "Aragorn",
+    "right": "Gandalf"
+  },
+  {
+    "question": "Who follows Sam and Frodo the longest, from the journey's start at Rivendell, to the mountain of doom?",
+    "wrong1": "Aragorn",
+    "wrong2": "Gandalf",
+    "wrong3": "Sarumon",
+    "right": "Gollum"
+  },
+  {
+    "question": "Where did did the Numenorian king Elendil and the Elven king Gil-Galad fall, in the war against Sauron?",
+    "wrong1": "Outside Minas Tirith, city of Gondor",
+    "wrong2": "In the Dome of Stars, in Osgiliath",
+    "wrong3": "The Pelennor Fields",
+    "right": "The Gladden Fields"
+  },
+  {
+    "question": "Who kills the Witch-King, leader of the nine ringwraiths, in the battle of the Pelennor fields?",
+    "wrong1": "Pippin",
+    "wrong2": "Aragorn",
+    "wrong3": "Th351oden",
+    "right": "311owyn"
+  },
+  {
+    "question": "Gimli the dwarf becomes deeply fascinated by something he finds under Helm's Deep. What is it?",
+    "wrong1": "Cirrith Ungol",
+    "wrong2": "Khazad-d372m",
+    "wrong3": "Erebor",
+    "right": "The Glittering Caves"
+  },
+  {
+    "question": "Who eventually departs for the elven lands, at the trilogy's conclusion?",
+    "wrong1": "Bilbo",
+    "wrong2": "Frodo",
+    "wrong3": "Gandalf",
+    "right": "All of the Above"
+  }
+
+]

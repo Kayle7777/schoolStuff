@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jesse Webb</title>
+  <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+  <script>
+  function play() {
+    var audio = document.getElementById("audioButton");
+    audio.style = "visibility: visible";
+    audio.play();
+    document.getElementById("textarea").value = "I don't know how to do forms! lol! :) :)"
+  }
+  </script>
+</head>
+<body>
+
+<header>
+    <div class="header">
+
+      <div id="myName">
+        <h2>Jesse Webb</h2>
+      </div>
+        <nav class="buttonContainer">
+          <div>
+              <button class="headerButton" onclick="location.href='index.html'">About</button>
+
+              <button class="headerButton" onclick="location.href='portfolio.html'">Portfolio</button>
+
+              <button class="headerButton" onclick="location.href='contact.html'">Contact</button>
+          </div>
+        </nav>
+    </div>
+</header>
+
+<!-- body section start -->
+<div class="wrapper">
+    <div>
+
+      <div>
+        <h2>Contact</h2>
+      </div>
+
+      <p id="pBorder"></p>
+
+      <form>
+        <p>Name</p><br>
+        <input type="text" name="name" placeholder="Jesse Webb">
+        <br><br>
+        <p>Email</p><br>
+        <input type="text" name="email" placeholder="example@gmail.com">
+        <br><br>
+        <p>Message</p><br>
+        <textarea id="textarea" type="text" name="message"></textarea>
+        <br><br>
+        <input id="submitButton" type="button" onclick="play()" value="Submit">
+        <audio controls id="audioButton" src="./assets/justcantgetenough.mp3"></audio>
+      </form>
+
+    </div>
+</div>
+<!-- body section end -->
+<footer>
+  <div id="footer">
+    <div>
+      <div>
+        <p>Copyright © 2018</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

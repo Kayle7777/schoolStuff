@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/moment.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <title>Train schedules</title>
+</head>
+<body class="container">
+  <header class="header">
+    <div class="jumbotron text-center text-white bg-dark">
+      <h1>Anytime is Train Time</h1>
+      <p id="jumboClock">00:00:00</p>
+    </div>
+  </header>
+  <div class="row">
+    <div class="col-md-12">
+      <div class="card">
+        <div class="card-header text-white bg-primary">
+          Current Train Schedule
+          <button type="submit" id="randomTrain" class="float-right btn btn-primary">Add Random</button><button class="btn btn-primary float-right" id="removeAllTrains">Remove All</button>
+        </div>
+        <div class="card-body">
+          <table class="table table-striped">
+            <thead>
+              <tr>
+                <th scope="col">Train Name</th>
+                <th scope="col">Destination</th>
+                <th scope="col">Frequency (min)</th>
+                <th scope="col">Next Arrival</th>
+                <th scope="col">Minutes Away</th>
+              </tr>
+            </thead>
+            <tbody id="tableBody">
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+  <a href="https://testproject-3924d.firebaseio.com/" target="_blank"><button class="btn btn-primary">Firebase Link</button></a>
+  <!-- <br>
+  <div class="row">
+    <div class="col-md-12">
+      <div class="card">
+        <div class="card-header text-white bg-primary">Add Train</div>
+        <div class="card-body">
+          <form class="navbar-form navbar-left" role="search">
+            <div class="form-group">
+              Train Name  <input type="text" id="trainNameInput" class="form-control" placeholder="Name">
+              Destination  <input type="text" id="trainDestinationInput" class="form-control" placeholder="Name">
+              First Train Time (HH:mm - military time)  <input type="text" id="firstTrainTimeInput" class="form-control" placeholder="Name">
+              Frequency  <input type="text" id="trainFrequencyInput" class="form-control" placeholder="Name">
+              <br>
+              <button type="submit" id="trainSubmit" class="btn btn-primary">Submit</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div> -->
+
+</div>
+</body>
+<script src="https://www.gstatic.com/firebasejs/5.2.0/firebase.js"></script>
+<script src="./assets/javascript/app.js"></script>
+</html>

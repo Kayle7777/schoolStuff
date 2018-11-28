@@ -1,0 +1,21 @@
+body {
+  color: #49fb35;
+  /* background-color: black; */
+  background-image: url("https://stmed.net/sites/default/files/the-lord-of-the-rings-hd-wallpapers-33796-109541.jpg")
+}
+
+#header {
+ font-size: 3em;
+}
+
+.buttonClass {
+  border: 5px solid black;
+}
+
+#timeRemaining {
+  font-size: 3em;
+}
+
+#question {
+  font-size: 1.25em;
+}

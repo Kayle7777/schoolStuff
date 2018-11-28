@@ -1,0 +1,7 @@
+.Header {
+    /* background-color: purple; */
+    min-height: 25vh;
+    font-size: calc(20px + 2vmin);
+    font-weight: bolder;
+    color: white;
+}

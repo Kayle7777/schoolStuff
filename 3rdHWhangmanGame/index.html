@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> Word Guess Game </title>
+  <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+  <link rel="stylesheet" type="text/css" href="./assets/css/style2.css">
+</head>
+<body>
+<div class="container shell-wrap">
+<div class="shell-top-bar">/Users/jessewebb/games/Falken's_Maze</div>
+
+  <div class="row shell-body">
+    <div class="col-md-12">
+      <span>Last Letter Pressed: </span><span id="lastLetter">_</span>
+    </div>
+      <br><br>
+    <div class="col-md-12">
+      <span>Tried Letters: </span><span id="triedLetters"></span>
+    </div>
+      <br><br>
+    <div class="col-md-12">
+      <span>Tries Left: </span><span id="triesLeft"></span>
+    </div>
+    <br><br>
+    <div class="col-md-12">
+      <span>Total Games: </span><span id="totalGames">0</span>
+    </div>
+    <br><br>
+    <div class="col-md-12">
+      <span>Games Won: </span><span id="gamesWon"></span>
+    </div>
+    <br><br>
+    <div class="col-md-12">
+      <span>Games Lost: </span><span id="gamesLost"></span>
+    </div>
+    <div class="col-md-12 align-self-end">
+      <div>Last Word: </div><div id="lastWord"></div>
+      <div id="hiddenWord"></div>
+    </div>
+  </div>
+</div>
+</body>
+<script type="text/javascript" src="./assets/javascript/game.js"></script>
+</html>
